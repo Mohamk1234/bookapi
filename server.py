@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=["GET"])
 def home():
-    return render_template('index.html')
+    return "Please refer to the list of all available API endpoints"
 
 @app.route("/booklist/bookname/<name>", methods=['GET'])
 def get_by_name(name):
