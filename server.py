@@ -1,5 +1,5 @@
 from pickle import FALSE
-from flask import Flask, Response, request
+from flask import Flask, Response, render_template, request
 import db
 import json
 import datetime
@@ -8,6 +8,10 @@ from bson.objectid import ObjectId
 
 
 app = Flask(__name__)
+
+@app.route("/",methods=["GET"])
+def home():
+    return render_template('index.html')
 
 @app.route("/booklist/bookname/<name>", methods=['GET'])
 def get_by_name(name):
@@ -198,3 +202,4 @@ def issued_in_date_range():
         response = json.dumps(books),
         status=200,
         mimetype="application/json")
+
