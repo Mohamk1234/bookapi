@@ -1,5 +1,5 @@
 #list of all available API endpoints
 
 <ul>
-  <li>/booklist/bookname/<name></li>
+  <li>/booklist/bookname/&ltname&gt</li>
 </ul>
