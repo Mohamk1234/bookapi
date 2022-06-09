@@ -1,0 +1,100 @@
+    db.db.booklist.insert_one({
+        "book_name":"The Great Gatsby",
+        "category":"Historical Fiction",
+        "rent":75
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Moby Dick",
+        "category":"Adventure Fictions",
+        "rent":65
+        })
+    db.db.booklist.insert_one({
+        "book_name":"War and Peace",
+        "category":"Historical Fiction",
+        "rent":25
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Hamlet",
+        "category":"Tragedy",
+        "rent":50
+        })
+    db.db.booklist.insert_one({
+        "book_name":"The Odessey",
+        "category":"Epic Poetry",
+        "rent":50
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Lolita",
+        "category":"Fiction",
+        "rent":33
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Wuthering Height",
+        "category":"Gothic Fiction",
+        "rent":10
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Pride and Prejudice",
+        "category":"Domestic Fiction",
+        "rent":20
+        })
+    db.db.booklist.insert_one({
+        "book_name":"The Adventures of Huckleberry Finn",
+        "category":"Humor",
+        "rent":90
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Anna Karenina",
+        "category":"Fiction",
+        "rent":67
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Great Expectations",
+        "category":"Gothic Fiction",
+        "rent":75
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Invisible Man",
+        "category":"Fiction",
+        "rent":75
+        })
+    db.db.booklist.insert_one({
+        "book_name":"To kill a Mockingbird",
+        "category":"Domestic Fiction",
+        "rent":30
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Gulliver's Travels",
+        "category":"Satire",
+        "rent":80
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Jane Eyre",
+        "category":"Romance Novel",
+        "rent":25
+        })
+    db.db.booklist.insert_one({
+        "book_name":"David Copperfield",
+        "category":"Fictional Autobiography",
+        "rent":100
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Midnight's Children",
+        "category":"Magical Realism",
+        "rent":50
+        })
+    db.db.booklist.insert_one({
+        "book_name":"The Lord of the Rings",
+        "category":"Fantasy Fiction",
+        "rent":110
+        })
+    db.db.booklist.insert_one({
+        "book_name":"The Portrait of a Lady",
+        "category":"Fiction",
+        "rent":10
+        })
+    db.db.booklist.insert_one({
+        "book_name":"Ready Player One",
+        "category":"Sci-Fi",
+        "rent":10
+        })
