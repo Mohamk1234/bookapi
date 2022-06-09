@@ -198,7 +198,3 @@ def issued_in_date_range():
         response = json.dumps(books),
         status=200,
         mimetype="application/json")
-
-
-if __name__ == "__main__":
-    app.run(port=8000, debug=True)
